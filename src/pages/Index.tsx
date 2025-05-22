@@ -53,7 +53,7 @@ const Index = () => {
   setCheckResult(null);
 
   try {
-    const response = await fetch("http://localhost:5000/validate-email", {
+    const response = await fetch("https://trust-deliver-server.vercel.app/validate-email", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
